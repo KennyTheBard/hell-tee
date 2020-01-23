@@ -30,6 +30,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import static android.app.Activity.RESULT_OK;
+
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class ExerciseListingFragment extends UpdatableFragment {
 
@@ -129,6 +131,17 @@ public class ExerciseListingFragment extends UpdatableFragment {
             public void onCancelled(@NonNull DatabaseError databaseError) {
             }
         });
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        super.onActivityResult(requestCode, resultCode, intent);
+        if (requestCode == CREATE_NEW_EXERCISE) {
+            if (resultCode == RESULT_OK) {
+                loadData();
+            }
+        }
     }
 
     @Override

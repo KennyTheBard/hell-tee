@@ -3,18 +3,11 @@ package com.impaler.helltee;
 import android.os.Build;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.tabs.TabLayout;
-
 import androidx.annotation.RequiresApi;
-import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-
+import com.google.android.material.tabs.TabLayout;
 import com.impaler.helltee.ui.main.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
