@@ -1,14 +1,24 @@
 package com.impaler.helltee.ui.main;
 
 import android.content.Context;
+import android.os.Build;
 
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.impaler.helltee.R;
+import com.impaler.helltee.fragment.ExerciseListingFragment;
+import com.impaler.helltee.fragment.HydrateTodayFragment;
+import com.impaler.helltee.fragment.UpdatableFragment;
+
+import org.threeten.bp.LocalDate;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -20,16 +30,21 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
     private final Context mContext;
 
+    private List<UpdatableFragment> fragments;
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
+
+        fragments = new ArrayList<>();
+        fragments.add(new ExerciseListingFragment());
+        fragments.add(new HydrateTodayFragment());
     }
 
     @Override
     public Fragment getItem(int position) {
-        // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-        return PlaceholderFragment.newInstance(position + 1);
+        return fragments.get(position);
     }
 
     @Nullable
@@ -40,7 +55,11 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 2 total pages.
         return 2;
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    public void update(LocalDate startDate, LocalDate endDate) {
+        fragments.forEach(f -> f.update(startDate, endDate));
     }
 }

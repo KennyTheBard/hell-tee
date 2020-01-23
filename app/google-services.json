@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "210372445867",
+    "firebase_url": "https://helltee.firebaseio.com",
+    "project_id": "helltee",
+    "storage_bucket": "helltee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210372445867:android:d1f93a446970f0e369d9ee",
+        "android_client_info": {
+          "package_name": "com.impaler.helltee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210372445867-t0s2nq3j5jtv9o07l82qgicbso1us415.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA0QFhrp_OTTkgWmx8a5mNqmyLKORoHxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210372445867-t0s2nq3j5jtv9o07l82qgicbso1us415.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
