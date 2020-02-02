@@ -1,4 +1,4 @@
-package com.impaler.helltee.ui.main;
+package com.impaler.helltea.ui.main;
 
 import android.content.Context;
 import android.os.Build;
@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.impaler.helltee.R;
-import com.impaler.helltee.fragment.ExerciseListingFragment;
-import com.impaler.helltee.fragment.HydrateTodayFragment;
-import com.impaler.helltee.fragment.UpdatableFragment;
+import com.impaler.helltea.R;
+import com.impaler.helltea.fragment.ExerciseListingFragment;
+import com.impaler.helltea.fragment.HydrateTodayFragment;
+import com.impaler.helltea.fragment.UpdatableFragment;
 
 import org.threeten.bp.LocalDate;
 

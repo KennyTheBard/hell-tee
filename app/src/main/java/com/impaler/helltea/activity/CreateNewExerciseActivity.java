@@ -1,4 +1,4 @@
-package com.impaler.helltee.activity;
+package com.impaler.helltea.activity;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -27,9 +27,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.impaler.helltee.R;
-import com.impaler.helltee.model.Exercise;
-import com.impaler.helltee.model.ExerciseType;
+import com.impaler.helltea.R;
+import com.impaler.helltea.model.Exercise;
+import com.impaler.helltea.model.ExerciseType;
 
 import java.util.ArrayList;
 import java.util.List;

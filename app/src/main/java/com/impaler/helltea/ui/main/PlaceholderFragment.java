@@ -1,4 +1,4 @@
-package com.impaler.helltee.ui.main;
+package com.impaler.helltea.ui.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.impaler.helltee.R;
+import com.impaler.helltea.R;
 
 /**
  * A placeholder fragment containing a simple view.

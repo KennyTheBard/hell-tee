@@ -1,4 +1,4 @@
-package com.impaler.helltee.ui.main;
+package com.impaler.helltea.ui.main;
 
 import androidx.arch.core.util.Function;
 import androidx.lifecycle.LiveData;

@@ -1,4 +1,4 @@
-package com.impaler.helltee.fragment;
+package com.impaler.helltea.fragment;
 
 import android.content.Intent;
 import android.os.Build;
@@ -18,10 +18,10 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.impaler.helltee.R;
-import com.impaler.helltee.activity.CreateNewExerciseActivity;
-import com.impaler.helltee.activity.QueryFormActivity;
-import com.impaler.helltee.model.Exercise;
+import com.impaler.helltea.R;
+import com.impaler.helltea.activity.CreateNewExerciseActivity;
+import com.impaler.helltea.activity.QueryFormActivity;
+import com.impaler.helltea.model.Exercise;
 
 import org.threeten.bp.LocalDate;
 import org.threeten.bp.format.DateTimeFormatter;

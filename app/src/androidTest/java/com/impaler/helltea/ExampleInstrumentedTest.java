@@ -1,4 +1,4 @@
-package com.impaler.helltee;
+package com.impaler.helltea;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.impaler.helltee", appContext.getPackageName());
+        assertEquals("com.impaler.helltea", appContext.getPackageName());
     }
 }

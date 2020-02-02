@@ -1,4 +1,4 @@
-package com.impaler.helltee.activity;
+package com.impaler.helltea.activity;
 
 import android.content.Intent;
 import android.os.Build;
@@ -21,8 +21,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.impaler.helltee.MainActivity;
-import com.impaler.helltee.R;
+import com.impaler.helltea.MainActivity;
+import com.impaler.helltea.R;
 import com.jakewharton.threetenabp.AndroidThreeTen;
 
 import org.threeten.bp.LocalDate;

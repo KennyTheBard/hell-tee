@@ -1,4 +1,4 @@
-package com.impaler.helltee.fragment;
+package com.impaler.helltea.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,8 +15,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.impaler.helltee.R;
-import com.impaler.helltee.model.Exercise;
+import com.impaler.helltea.R;
+import com.impaler.helltea.model.Exercise;
 
 import org.threeten.bp.LocalDate;
 import org.threeten.bp.format.DateTimeFormatter;

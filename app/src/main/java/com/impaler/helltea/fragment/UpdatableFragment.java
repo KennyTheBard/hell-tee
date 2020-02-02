@@ -1,4 +1,4 @@
-package com.impaler.helltee.fragment;
+package com.impaler.helltea.fragment;
 
 import androidx.fragment.app.Fragment;
 

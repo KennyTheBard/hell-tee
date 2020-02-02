@@ -1,4 +1,4 @@
-package com.impaler.helltee.model;
+package com.impaler.helltea.model;
 
 import androidx.annotation.NonNull;
 

@@ -1,4 +1,4 @@
-package com.impaler.helltee;
+package com.impaler.helltea;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
-import com.impaler.helltee.ui.main.SectionsPagerAdapter;
+import com.impaler.helltea.ui.main.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

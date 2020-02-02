@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:210372445867:android:d1f93a446970f0e369d9ee",
+        "mobilesdk_app_id": "1:210372445867:android:707f3b72a82992ce69d9ee",
         "android_client_info": {
-          "package_name": "com.impaler.helltee"
+          "package_name": "com.impaler.helltea"
         }
       },
       "oauth_client": [

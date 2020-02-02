@@ -1,4 +1,4 @@
-package com.impaler.helltee;
+package com.impaler.helltea;
 
 import org.junit.Test;
 
